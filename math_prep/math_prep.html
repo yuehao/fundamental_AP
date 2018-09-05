@@ -12306,6 +12306,77 @@ x=Ae^{i\lambda_1 t}+Be^{i \lambda_2 t}
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Vector-Operation">Vector Operation<a class="anchor-link" href="#Vector-Operation">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Gradient,-Divergence-and-Curl">Gradient, Divergence and Curl<a class="anchor-link" href="#Gradient,-Divergence-and-Curl">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><p>Gradient of scalar function is a vector
+\begin{align}
+\mathbf{f}&amp;=\operatorname{grad}(\psi)=\nabla\psi \\
+&amp;=\left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)\psi
+\end{align}</p>
+</li>
+<li><p>Divergence of a vector is a scalar function
+\begin{align}
+\operatorname{div}(\mathbf{f})&amp;=\nabla\cdot\mathbf{f} \\
+&amp;=\left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)\cdot\left(f_x, f_y, f_z\right)\\
+&amp;=\frac{\partial f_x}{\partial x}+ \frac{\partial f_y}{\partial y}+ \frac{\partial f_z}{\partial z}
+\end{align}</p>
+</li>
+<li><p>Curl of the vector is another vector function
+\begin{align}
+\operatorname{curl}(\mathbf{f})&amp;=\nabla\times\mathbf{f} \\
+&amp;=\begin{vmatrix} \mathbf{\hat{x}} &amp; \mathbf{\hat{y}} &amp; \mathbf{\hat{z}} \\
+{\frac{\partial}{\partial x}} &amp; {\frac{\partial}{\partial y}} &amp; {\frac{\partial}{\partial z}} \\
+f_x &amp; f_y &amp; f_z \end{vmatrix}
+\end{align}</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Gauss's-divergence-theorem">Gauss's divergence theorem<a class="anchor-link" href="#Gauss's-divergence-theorem">&#182;</a></h3><p>\begin{align}
+\int_S \mathbf{f}\cdot d\mathbf{S}=\int_V \nabla\cdot\mathbf{f}dV
+\end{align}</p>
+<p>It is useful to find the electric field with given charge distribution.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Stokes'-theorem">Stokes' theorem<a class="anchor-link" href="#Stokes'-theorem">&#182;</a></h3><p>\begin{align}
+\int_{S} \nabla \times \mathbf{f} \cdot d\mathbf{S} = \oint_{\partial S} \mathbf{f} \cdot d \mathbf{r}
+\end{align}</p>
+<p>It is useful to find the magnetic field with given current distribution.</p>
+
+</div>
+</div>
+</div>
     </div>
   </div>
 </body>
